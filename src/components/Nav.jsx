@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import logo from '../assets/images/svg/nav-logo.svg';
+import CustomButton from './common/CustomButton';
 
 const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -16,7 +17,7 @@ const Nav = () => {
     }, []);
 
     return (
-        <nav className='bg-black'>
+        <nav className='mb-10 sm:mb-20 md:mb-28 lg:mb-44'>
             <div className="max-w-[1320px] px-4 mx-auto">
                 <div className="flex justify-between items-center py-[17px]">
                     <div className="flex items-center gap-3.5">
@@ -33,7 +34,7 @@ const Nav = () => {
                         <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:font-semibold' href="#">EVENTS</a></li>
                         <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:font-semibold' href="#">FEED</a></li>
                         <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:font-semibold' href="#">USER NAME</a></li>
-                        <li><button className='font-family-primary font-semibold text-base leading-[150%] border-0 bg-[#2C49FE] rounded-3xl py-[11px] px-[28px] text-white cursor-pointer hover:bg-[white] hover:text-[#01C8FF] transition-all duration-200 ease-linear'>Log Out</button></li>
+                        <li><CustomButton btnClass="text-base" btn="Log Out" /></li>
                     </ul>
                 </div>
             </div>
