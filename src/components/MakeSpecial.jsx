@@ -21,7 +21,9 @@ const MakeSpecial = () => {
                                 <div className="flex gap-[30px] flex-wrap justify-center xl:max-w-[550px]">
                                     {CARD_DATA.map((item, index) => (
                                         <div key={index} className='max-w-[500px] sm:max-w-[260px] max-sm:px-7 w-full hover:bg-[#2C49FE] border rounded-[5px] group relative border-[#2C49FE] mb-5'>
-                                            <img className='absolute left-[50%] translate-x-[-50%] top-[-40px]' src={item.imgBox} alt="img-box" />
+                                            <div className="absolute left-[50%] translate-x-[-50%] top-[-40px] w-[79px] h-[79px] border-[2px] rounded-full flex justify-center items-center z-1 bg-white border-[#2C49FE]">
+                                                <img src={item.imgBox} alt="image" />
+                                            </div>
                                             <h3 className='font-family-primary font-medium text-center text-[25px] leading-[100%] group-hover:text-white text-[#2C49FE] pt-[45px] pb-2.5'>{item.text}</h3>
                                             <p className='font-family-primary font-normal text-base leading-[150%] text-center text-[#2D3CAE] pb-[17px] group-hover:text-white mx-auto sm:max-w-[185px]'>{item.description}</p>
                                         </div>

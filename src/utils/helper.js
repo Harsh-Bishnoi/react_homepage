@@ -1,10 +1,12 @@
 import latestImg from '../assets/images/png/latest-img-1.png'
 import LatestImg from '../assets/images/png/latest-img-2.png'
+import sharing from '../assets/images/svg/sharing.svg'
 import info from '../assets/images/svg/info.svg'
+import help from '../assets/images/svg/help.svg'
 
 export const CARD_DATA = [
     {
-        imgBox: info,
+        imgBox: sharing,
         text: "Sharing",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in"
     },
@@ -14,7 +16,7 @@ export const CARD_DATA = [
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in"
     },
     {
-        imgBox: info,
+        imgBox: help,
         text: "Help",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in"
     }
