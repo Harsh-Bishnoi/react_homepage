@@ -1,0 +1,71 @@
+import React from 'react'
+import logo from '../assets/images/svg/nav-logo.svg'
+import insta from '../assets/images/svg/insta-icon.svg'
+import facebook from '../assets/images/svg/facebook-icon.svg'
+import twitter from '../assets/images/svg/twitter-icon.svg'
+import CustomDescription from './common/CustomDescription'
+
+const Footer = () => {
+    return (
+        <>
+            <div className="bg-black pt-[81px]">
+                <div className="max-w-[1320px] px-4 mx-auto pb-24">
+                    <div className="flex flex-wrap flex-row -mx-3">
+                        <div className="w-6/12 px-3">
+                            <div className="flex items-center gap-3.5 pb-9">
+                                <a href="#"><img src={logo} alt="nav-logo" className='max-w-[50px] sm:max-w-[98px]' /></a>
+                                <a className='font-family-primary font-bold text-2xl sm:text-4xl leading-[135%] text-[#2C49FE] mb-0' href='#'>Events<span className='text-[#01C8FF]'>Free</span></a>
+                            </div>
+                            <CustomDescription discriptionClass="text-white max-w-[346px] text-base pb-6" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. c " />
+                            <div className="flex items-center gap-6">
+                                <a className='' href="https://www.instagram.com/accounts/login/?hl=en" target='_blank'><img src={insta} alt="insta-icon" /></a>
+                                <a className='' href="https://www.facebook.com/?_rdr" target='_blank'><img src={facebook} alt="facebook-icon" /></a>
+                                <a className='' href="https://x.com/" target='_blank'><img src={twitter} alt="twitter-icon" /></a>
+                            </div>
+                        </div>
+                        <div className="w-6/12">
+                            <div className="flex flex-wrap flex-row -mx-3 w-full">
+                                <div className="md:w-3/12 px-3 flex justify-start">
+                                    <ul className=''>
+                                        <li className='text-white font-family-primary font-bold text-sm leading-[100%] mb-3'>SERVICES</li>
+                                        <li className='mb-3'><a className='font-family-primary text-white font-normal text-xs leading-[100%]' href="#">About</a> </li>
+                                        <li className='mb-3'><a className='font-family-primary text-white font-normal text-xs leading-[100%]' href="#">News</a> </li>
+                                        <li className='mb-3'><a className='font-family-primary text-white font-normal text-xs leading-[100%]' href="#">ullamcorper</a> </li>
+                                        <li><a className='font-family-primary text-white font-normal text-xs leading-[100%]' href="#">Contact</a> </li>
+                                    </ul>
+                                </div>
+                                <div className="md:w-3/12 px-3 justify-start flex">
+                                    <ul className=''>
+                                        <li className='text-white font-family-primary font-bold text-sm leading-[100%] mb-3'>EVENTS</li>
+                                        <li className='mb-3'><a className='font-family-primary text-white font-normal text-xs leading-[100%]' href="#">ullamcorper</a></li>
+                                        <li className='mb-3'><a className='font-family-primary text-white font-normal text-xs leading-[100%]' href="#">ullamcorper</a></li>
+                                        <li className='mb-3'><a className='font-family-primary text-white font-normal text-xs leading-[100%]' href="#">ullamcorper</a></li>
+                                        <li><a className='font-family-primary text-white font-normal text-xs leading-[100%]' href="#">ullamcorper</a></li>
+                                    </ul>
+                                </div>
+                                <div className="lg:w-6/12 w-full px-3">
+                                    <p className='text-white font-family-primary font-bold text-sm leading-[100%] mb-3'>GALLERY</p>
+                                    <div className='flex gap-[18px]'>
+                                        <img src="./src/assets/images/png/footer-img-1.png" alt="img-1" />
+                                        <img src="./src/assets/images/png/footer-img-2.png" alt="img-2" />
+                                        <img src="./src/assets/images/png/footer-img-3.png" alt="img-3" />
+                                    </div>
+                                    <div className='flex mt-[10px] gap-[18px]'>
+                                        <img src="./src/assets/images/png/footer-img-4.png" alt="img-4" />
+                                        <img src="./src/assets/images/png/footer-img-5.png" alt="img-5" />
+                                        <div className="max-w-[90px] w-full bg-[#2D3CAE87] py-[13px] px-6">
+                                            <p className='font-family-primary font-bold text-xs leading-[150%] text-center text-white'>Show More</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="font-family-primary font-normal text-sm leading-[100%] text-white mb-0 py-6 text-center">© Credits of companyName belong to companyName.</div>
+            </div>
+        </>
+    )
+}
+
+export default Footer

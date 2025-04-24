@@ -28,7 +28,7 @@ const JoinUs = () => {
                                     <input className='font-family-primary fw-normal text-base leading-[100%] text-[#000000B2] max-sm:mb-4 lg:max-w-[279px] w-full border border-[#00000066] rounded-[5px] h-[42px] px-[17px]' type="password" placeholder='Password' />
                                     <input className='font-family-primary fw-normal text-base leading-[100%] text-[#000000B2] max-sm:mb-4 lg:max-w-[279px] w-full border border-[#00000066] rounded-[5px] h-[42px] px-[17px]' type="password" placeholder='Confirm Password' />
                                 </div>
-                                <textarea className='font-family-primary fw-normal text-base leading-[100%] text-[#000000B2] w-full lg:max-w-[574px] pt-2.5 border border-[#00000066] rounded-[5px] h-[124px] px-[17px]' placeholder='About Me'></textarea>
+                                <textarea className='font-family-primary fw-normal text-base leading-[100%] text-[#000000B2] w-full lg:max-w-[574px] pt-2.5 border border-[#00000066] rounded-[5px] min-h-[124px] px-[17px]' placeholder='About Me'></textarea>
                             </div>
                         </div>
                     </div>

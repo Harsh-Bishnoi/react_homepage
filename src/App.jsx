@@ -1,5 +1,6 @@
 import './App.css'
 import Consectetur from './components/consectetur'
+import Footer from './components/Footer'
 import Header from './components/Header'
 import JoinUs from './components/JoinUs'
 import LatestEvent from './components/LatestEvent'
@@ -13,7 +14,8 @@ function App() {
       <MakeSpecial />
       <Consectetur />
       <LatestEvent />
-      <JoinUs/>
+      <JoinUs />
+      <Footer/>
     </>
   )
 }
