@@ -23,9 +23,9 @@ const Footer = () => {
                             </div>
                             <CustomDescription discriptionClass="text-white xl:max-w-[346px] text-base pb-6" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. c " />
                             <div className="flex items-center gap-6">
-                                <a className='' href="https://www.instagram.com/accounts/login/?hl=en" target='_blank'><img src={insta} alt="insta-icon" /></a>
-                                <a className='' href="https://www.facebook.com/?_rdr" target='_blank'><img src={facebook} alt="facebook-icon" /></a>
-                                <a className='' href="https://x.com/" target='_blank'><img src={twitter} alt="twitter-icon" /></a>
+                                <a className='transform hover:scale-110 transition-all duration-200 ease-linear' href="https://www.instagram.com/accounts/login/?hl=en" target='_blank'><img src={insta} alt="insta-icon" /></a>
+                                <a className='transform hover:scale-110 transition-all duration-200 ease-linear' href="https://www.facebook.com/?_rdr" target='_blank'><img src={facebook} alt="facebook-icon" /></a>
+                                <a className='transform hover:scale-110 transition-all duration-200 ease-linear' href="https://x.com/" target='_blank'><img src={twitter} alt="twitter-icon" /></a>
                             </div>
                         </div>
                         <div className="w-full xl:w-6/12 px-4">
