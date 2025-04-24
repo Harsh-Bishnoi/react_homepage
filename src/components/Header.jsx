@@ -25,7 +25,7 @@ const Header = () => {
                         <CustomButton btnClass="text-xl" btn="Get Started" />
                         <a className='font-family-primary font-normal text-xl leading-[150%] text-white' href="">Learn more</a>
                     </div>
-                    {/* <div className="max-w-[962px] rounded-[150px] bg-[#2C49FEBD] h-[108px] py-[19px] pr-[23px] pl-[35px] flex items-center">
+                    {/* <div className="max-w-[962px] rounded-[150px] bg-[#2C49FEBD] py-[19px] pr-[23px] pl-[35px] flex items-center">
                         <div className="flex items-center gap-[17px]">
                             <img src={location} alt="location-img" />
                             <div className="">
