@@ -28,7 +28,10 @@ const JoinUs = () => {
                                     <input className='font-family-primary fw-normal text-base leading-[100%] text-[#000000B2] max-sm:mb-4 lg:max-w-[279px] w-full border border-[#00000066] rounded-[5px] h-[42px] px-[17px]' type="password" placeholder='Password' />
                                     <input className='font-family-primary fw-normal text-base leading-[100%] text-[#000000B2] max-sm:mb-4 lg:max-w-[279px] w-full border border-[#00000066] rounded-[5px] h-[42px] px-[17px]' type="password" placeholder='Confirm Password' />
                                 </div>
-                                <textarea className='font-family-primary fw-normal text-base leading-[100%] text-[#000000B2] w-full lg:max-w-[574px] pt-2.5 border border-[#00000066] rounded-[5px] min-h-[124px] px-[17px]' placeholder='About Me'></textarea>
+                                <textarea className='font-family-primary fw-normal text-base leading-[100%] mb-[37px] text-[#000000B2] w-full lg:max-w-[574px] pt-2.5 border border-[#00000066] rounded-[5px] min-h-[124px] px-[17px]' placeholder='About Me'></textarea>
+                                <div className="max-lg:flex justify-center">
+                                    <button className='font-family-primary font-semibold cursor-pointer hover:bg-white hover:text-[#2C49FE] transition-all duration-200 ease-linear text-base leading-[150%] text-white py-[10px] border border-[#2C49FE] w-full bg-[#2C49FE] rounded-[23px] max-w-[574px]'>Sign up</button>
+                                </div>
                             </div>
                         </div>
                     </div>
