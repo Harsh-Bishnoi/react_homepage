@@ -1,5 +1,5 @@
 import './App.css'
-import Consectetur from './components/consectetur'
+import Consectetur from './components/Consectetur'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import JoinUs from './components/JoinUs'
@@ -15,7 +15,7 @@ function App() {
       <Consectetur />
       <LatestEvent />
       <JoinUs />
-      <Footer/>
+      <Footer />
     </>
   )
 }

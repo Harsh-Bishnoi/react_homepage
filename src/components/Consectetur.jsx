@@ -9,7 +9,7 @@ import award from '../assets/images/svg/award-icon.svg'
 const Consectetur = () => {
     return (
         <>
-            <div className="flex justify-center relative items-center py-[40px] sm:pb-[46px] sm:pt-[50px] bg-[url(./src/assets/images/png/consectetur-bg-img.png)] bg-no-repeat bg-cover bg-center">
+            <div className="flex justify-center relative items-center py-[40px] sm:pb-[46px] sm:pt-[50px] bg-[url(/src/assets/images/png/consectetur-bg-img.png)] bg-no-repeat bg-cover bg-center">
                 <div className="absolute inset-0 bg-[#2C49FECC]"></div>
                 <div className="max-w-[920px] px-4 z-1">
                     <CustomHeading HeadingClass="!text-3xl sm:!text-5xl !leading-[130%] text-center pb-10 text-white" heading="Lorem ipsum dolor sit amet, consectetur" />

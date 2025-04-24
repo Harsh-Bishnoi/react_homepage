@@ -9,7 +9,7 @@ import line from '../assets/images/svg/header-line.svg'
 
 const Header = () => {
     return (
-        <div className="relative bg-[url(./src/assets/images/png/header-bg-img.png)] bg-no-repeat bg-center bg-cover pb-10 sm:pb-20 md:pb-[104px]">
+        <div className="relative bg-[url(/src/assets/images/png/header-bg-img.png)] bg-no-repeat bg-center bg-cover pb-10 sm:pb-20 md:pb-[104px]">
             <div className="absolute inset-0 bg-black opacity-57"></div>
             <div className="relative z-10">
                 <Nav />

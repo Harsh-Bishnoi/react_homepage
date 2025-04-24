@@ -4,6 +4,11 @@ import insta from '../assets/images/svg/insta-icon.svg'
 import facebook from '../assets/images/svg/facebook-icon.svg'
 import twitter from '../assets/images/svg/twitter-icon.svg'
 import CustomDescription from './common/CustomDescription'
+import img1 from '../assets/images/png/footer-img-1.png'
+import img2 from '../assets/images/png/footer-img-2.png'
+import img3 from '../assets/images/png/footer-img-3.png'
+import img4 from '../assets/images/png/footer-img-4.png'
+import img5 from '../assets/images/png/footer-img-5.png'
 
 const Footer = () => {
     return (
@@ -28,31 +33,31 @@ const Footer = () => {
                                 <div className="md:w-3/12 px-3 flex justify-start">
                                     <ul className=''>
                                         <li className='text-white font-family-primary font-bold text-sm leading-[100%] mb-3'>SERVICES</li>
-                                        <li className='mb-3'><a className='font-family-primary text-white font-normal text-xs leading-[100%]' href="#">About</a> </li>
-                                        <li className='mb-3'><a className='font-family-primary text-white font-normal text-xs leading-[100%]' href="#">News</a> </li>
-                                        <li className='mb-3'><a className='font-family-primary text-white font-normal text-xs leading-[100%]' href="#">ullamcorper</a> </li>
-                                        <li><a className='font-family-primary text-white font-normal text-xs leading-[100%]' href="#">Contact</a> </li>
+                                        <li className='mb-3'><a className='font-family-primary hover:text-[#2C49FE] transition-all duration-200 ease-in text-white font-normal text-xs leading-[100%]' href="#">About</a> </li>
+                                        <li className='mb-3'><a className='font-family-primary hover:text-[#2C49FE] transition-all duration-200 ease-in text-white font-normal text-xs leading-[100%]' href="#">News</a> </li>
+                                        <li className='mb-3'><a className='font-family-primary hover:text-[#2C49FE] transition-all duration-200 ease-in text-white font-normal text-xs leading-[100%]' href="#">ullamcorper</a> </li>
+                                        <li><a className='font-family-primary text-white font-normal hover:text-[#2C49FE] transition-all duration-200 ease-in text-xs leading-[100%]' href="#">Contact</a> </li>
                                     </ul>
                                 </div>
                                 <div className="md:w-3/12 px-3 justify-start flex">
                                     <ul className=''>
                                         <li className='text-white font-family-primary font-bold text-sm leading-[100%] mb-3'>EVENTS</li>
-                                        <li className='mb-3'><a className='font-family-primary text-white font-normal text-xs leading-[100%]' href="#">ullamcorper</a></li>
-                                        <li className='mb-3'><a className='font-family-primary text-white font-normal text-xs leading-[100%]' href="#">ullamcorper</a></li>
-                                        <li className='mb-3'><a className='font-family-primary text-white font-normal text-xs leading-[100%]' href="#">ullamcorper</a></li>
-                                        <li><a className='font-family-primary text-white font-normal text-xs leading-[100%]' href="#">ullamcorper</a></li>
+                                        <li className='mb-3'><a className='font-family-primary text-white hover:text-[#2C49FE] transition-all duration-200 ease-in font-normal text-xs leading-[100%]' href="#">ullamcorper</a></li>
+                                        <li className='mb-3'><a className='font-family-primary text-white hover:text-[#2C49FE] transition-all duration-200 ease-in font-normal text-xs leading-[100%]' href="#">ullamcorper</a></li>
+                                        <li className='mb-3'><a className='font-family-primary text-white hover:text-[#2C49FE] transition-all duration-200 ease-in font-normal text-xs leading-[100%]' href="#">ullamcorper</a></li>
+                                        <li><a className='font-family-primary text-white font-normal hover:text-[#2C49FE] transition-all duration-200 ease-in text-xs leading-[100%]' href="#">ullamcorper</a></li>
                                     </ul>
                                 </div>
                                 <div className="lg:w-6/12 w-full px-3">
                                     <p className='text-white font-family-primary font-bold text-sm leading-[100%] mb-3'>GALLERY</p>
                                     <div className='flex gap-[18px]'>
-                                        <img src="./src/assets/images/png/footer-img-1.png" alt="img-1" />
-                                        <img src="./src/assets/images/png/footer-img-2.png" alt="img-2" />
-                                        <img src="./src/assets/images/png/footer-img-3.png" alt="img-3" />
+                                        <img src={img1} alt="img-1" />
+                                        <img src={img2} alt="img-2" />
+                                        <img src={img3} alt="img-3" />
                                     </div>
                                     <div className='flex mt-[10px] gap-[18px]'>
-                                        <img src="./src/assets/images/png/footer-img-4.png" alt="img-4" />
-                                        <img src="./src/assets/images/png/footer-img-5.png" alt="img-5" />
+                                        <img src={img4} alt="img-4" />
+                                        <img src={img5} alt="img-5" />
                                         <div className="max-w-[90px] w-full bg-[#2D3CAE87] py-[13px] px-6">
                                             <p className='font-family-primary font-bold text-xs leading-[150%] text-center text-white'>Show More</p>
                                         </div>

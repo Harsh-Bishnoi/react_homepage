@@ -1,16 +1,20 @@
+import latestImg from '../assets/images/png/latest-img-1.png'
+import LatestImg from '../assets/images/png/latest-img-2.png'
+import info from '../assets/images/svg/info.svg'
+
 export const CARD_DATA = [
     {
-        imgBox: "./src/assets/images/svg/info.svg",
+        imgBox: info,
         text: "Sharing",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in"
     },
     {
-        imgBox: "./src/assets/images/svg/info.svg",
+        imgBox: info,
         text: "Info",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in"
     },
     {
-        imgBox: "./src/assets/images/svg/info.svg",
+        imgBox: info,
         text: "Help",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in"
     }
@@ -18,13 +22,13 @@ export const CARD_DATA = [
 
 export const LOREM_DATA = [
     {
-        img: "./src/assets/images/png/latest-img-1.png",
+        img: latestImg,
         date: "09/23/2021",
         text: "Lorem ipsum",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in "
     },
     {
-        img: "./src/assets/images/png/latest-img-2.png",
+        img: LatestImg,
         date: "09/23/2021",
         text: "Lorem ipsum",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in "
