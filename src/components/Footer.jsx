@@ -1,14 +1,12 @@
 import React from 'react'
 import logo from '../assets/images/svg/nav-logo.svg'
-import insta from '../assets/images/svg/insta-icon.svg'
-import facebook from '../assets/images/svg/facebook-icon.svg'
-import twitter from '../assets/images/svg/twitter-icon.svg'
 import CustomDescription from './common/CustomDescription'
 import img1 from '../assets/images/png/footer-img-1.png'
 import img2 from '../assets/images/png/footer-img-2.png'
 import img3 from '../assets/images/png/footer-img-3.png'
 import img4 from '../assets/images/png/footer-img-4.png'
 import img5 from '../assets/images/png/footer-img-5.png'
+import { FacebookLogo, InstaLogo, TwitterLogo } from '../utils/icon'
 
 const Footer = () => {
     return (
@@ -23,9 +21,9 @@ const Footer = () => {
                             </div>
                             <CustomDescription discriptionClass="text-white xl:max-w-[346px] text-base pb-6" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. c " />
                             <div className="flex items-center gap-6">
-                                <a className='transform hover:scale-110 transition-all duration-200 ease-linear' href="https://www.instagram.com/accounts/login/?hl=en" target='_blank'><img src={insta} alt="insta-icon" /></a>
-                                <a className='transform hover:scale-110 transition-all duration-200 ease-linear' href="https://www.facebook.com/?_rdr" target='_blank'><img src={facebook} alt="facebook-icon" /></a>
-                                <a className='transform hover:scale-110 transition-all duration-200 ease-linear' href="https://x.com/" target='_blank'><img src={twitter} alt="twitter-icon" /></a>
+                                <a className='transform hover:scale-110 transition-all duration-200 ease-linear' href="https://www.instagram.com/accounts/login/?hl=en" target='_blank'><InstaLogo/></a>
+                                <a className='transform hover:scale-110 transition-all duration-200 ease-linear' href="https://www.facebook.com/?_rdr" target='_blank'><FacebookLogo/></a>
+                                <a className='transform hover:scale-110 transition-all duration-200 ease-linear' href="https://x.com/" target='_blank'><TwitterLogo/></a>
                             </div>
                         </div>
                         <div className="w-full xl:w-6/12 px-4">
