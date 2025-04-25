@@ -2,10 +2,8 @@ import React from 'react'
 import Nav from './Nav'
 import CustomDescription from './common/CustomDescription'
 import CustomButton from './common/CustomButton'
-import location from '../assets/images/svg/location.svg'
-import date from '../assets/images/svg/date.svg'
-import member from '../assets/images/svg/member.svg'
 import line from '../assets/images/svg/header-line.svg'
+import { CalenderLogo, LocationLogo, MemberLogo } from '../utils/icon'
 
 const Header = () => {
     return (
@@ -25,33 +23,44 @@ const Header = () => {
                         <CustomButton btnClass="text-xl" btn="Get Started" />
                         <a className='font-family-primary font-normal text-xl leading-[150%] text-white' href="">Learn more</a>
                     </div>
-                    {/* <div className="max-w-[962px] rounded-[150px] bg-[#2C49FEBD] py-[19px] pr-[23px] pl-[35px] flex items-center">
-                        <div className="flex items-center gap-[17px]">
-                            <img src={location} alt="location-img" />
-                            <div className="">
-                                <h4 className='font-family-second leading-[100%] text-xl font-medium text-white mb-1'>Location</h4>
-                                <p className='font-family-second leading-[100%] text-sm font-normal text-white opacity-70'>Search by city</p>
+                    <div className="flex flex-col md:flex-row  w-full max-w-[962px] mb-16 ">
+                        <div className="w-full md:w-11/12 bg-blue-600/75 md:rounded-full rounded-2xl p-5">
+                            <div className="flex flex-wrap justify-center items-center lg:gap-y-6">
+                                <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 py -2 px -4 border-0 lg:border-r lg:border-white">
+                                    <div className="flex items-center justify-center space-x-4 pb-3">
+                                        <p className='size-8'><LocationLogo /></p>
+                                        <div>
+                                            <p className="text-white text-lg font-medium leading-6">Location</p>
+                                            <p className="text-blue-200 text-sm">Search by city</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 py -2 px- 4 border-0 lg:border-r lg:border-white">
+                                    <div className="flex items-center justify-center space-x-4 pb-3">
+                                        <p className='size-8'><CalenderLogo /></p>
+                                        <div>
+                                            <p className="text-white text-lg font-medium leading-6">Date</p>
+                                            <p className="text-blue-200 text-sm">09/23/2021</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 py -2 p x-4 border-0 lg:border-r lg:border-white">
+                                    <div className="flex items-center justify-center space-x-4 pb-3">
+                                        <p className='size-8'><MemberLogo /></p>
+                                        <div>
+                                            <p className="text-white text-lg font-medium leading-6">Capacity</p>
+                                            <p className="text-blue-200 text-sm">Search by city</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 py -2 p x-4 flex justify-center lg:justify-end">
+                                    <CustomButton btnClass="w-[185px] hover:!bg-[#2C49FE] hover:!text-white h-[70px] rounded-[150px] font-bold leading-[100%] text-xl !text-[#2C49FE] bg-white" btn="GO CHECK" />
+                                </div>
                             </div>
-                            <div className="flex items-center gap-[17px] relative after:content-[''] after:absolute after:right-[-11px] after:top-1/2 after:translate-y-[-50%] after:h-[50px] after:w-[1px] after:bg-white"> </div>
                         </div>
-                        <div className="flex items-center gap-[17px]">
-                            <img src={date} alt="date-img" />
-                            <div className="">
-                                <h4 className='font-family-second leading-[100%] text-xl font-medium text-white mb-1'>Date</h4>
-                                <p className='font-family-second leading-[100%] text-sm font-normal text-white opacity-70'>09/23/2021</p>
-                            </div>
-                        <div className="flex items-center gap-[17px] relative after:content-[''] after:absolute after:right-[-11px] after:top-1/2 after:translate-y-[-50%] after:h-[50px] after:w-[1px] after:bg-white"></div>
-                        </div>
-                        <div className="flex items-center gap-[17px]">
-                            <img src={member} alt="member-img" />
-                            <div className="">
-                                <h4 className='font-family-second leading-[100%] text-xl font-medium text-white mb-1'>Capicity</h4>
-                                <p className='font-family-second leading-[100%] text-sm font-normal text-white opacity-70'>Search by city</p>
-                            </div>
-                        <div className="flex items-center gap-[17px] relative after:content-[''] after:absolute after:right-[-11px] after:top-1/2 after:translate-y-[-50%] after:h-[50px] after:w-[1px] after:bg-white"></div>
-                        </div>
-                        <CustomButton btnClass="!py-[25px] rounded-[150px] !px-[40px] !text-xl !leading-[100%] !font-bold !bg-white !text-[#2C49FE]" btn="GO CHECK" />
-                    </div> */}
+                    </div>
                 </div>
             </div>
         </div>
