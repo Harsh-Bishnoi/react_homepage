@@ -15,7 +15,7 @@ const MakeSpecial = () => {
                         </div>
                         <div className="w-full xl:w-[50%] px-4 flex justify-center">
                             <div className="mx-auto">
-                                <p className='mb-5'><Line/></p>
+                                <p className='mb-5'><Line /></p>
                                 <CustomHeading HeadingClass="mb-4" heading="What make us special ?" />
                                 <CustomDescription discriptionClass="font-family-primary pb-[46px] text-base lg:max-w-[558px] text-[#000000B2] lh-[130%]" text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue lacinia vitae nec arcu. Nunc elit elit, malesuada id suscipit cursus,' />
                                 <div className="flex gap-[30px] flex-wrap justify-center xl:max-w-[550px]">
