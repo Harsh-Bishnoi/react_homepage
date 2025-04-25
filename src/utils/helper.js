@@ -1,22 +1,20 @@
 import latestImg from '../assets/images/png/latest-img-1.png'
 import LatestImg from '../assets/images/png/latest-img-2.png'
-import sharing from '../assets/images/svg/sharing.svg'
-import info from '../assets/images/svg/info.svg'
-import help from '../assets/images/svg/help.svg'
+import { HelpLogo, InfoLogo, SharingLogo} from './icon'
 
 export const CARD_DATA = [
     {
-        imgBox: sharing,
+        imgBox: SharingLogo,
         text: "Sharing",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in"
     },
     {
-        imgBox: info,
+        imgBox: InfoLogo,
         text: "Info",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in"
     },
     {
-        imgBox: help,
+        imgBox: HelpLogo,
         text: "Help",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in"
     }

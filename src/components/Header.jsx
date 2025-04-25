@@ -3,7 +3,7 @@ import Nav from './Nav'
 import CustomDescription from './common/CustomDescription'
 import CustomButton from './common/CustomButton'
 import line from '../assets/images/svg/header-line.svg'
-import { CalenderLogo, LocationLogo, MemberLogo } from '../utils/icon'
+import { CalenderLogo, HeaderLine, LocationLogo, MemberLogo } from '../utils/icon'
 
 const Header = () => {
     return (
@@ -16,7 +16,7 @@ const Header = () => {
                         <h1 className='font-family-primary text-white font-bold text-3xl sm:text-5xl md:text-[64px] leading-[150%] max-w-[1044px] pb-[18px]'>
                             Sed tortor in quisque morbi scelerisque etiam eu.
                         </h1>
-                        <img className='absolute hidden lg:block left-[27.5%] top-[50%] max-w-[472px]' src={line} alt="" />
+                        <p className='absolute hidden lg:block left-[27.5%] top-[50%] max-w-[472px]'><HeaderLine/></p>
                     </div>
                     <CustomDescription discriptionClass="font-family-second text-xl max-w-[800px] mb-[33px] text-white" text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue lacinia vitae nec arcu. Nunc elit elit, malesuada id suscipit cursus,' />
                     <div className="flex items-center gap-6 flex-wrap pb-[145px]">

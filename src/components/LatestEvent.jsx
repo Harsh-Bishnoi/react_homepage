@@ -1,8 +1,8 @@
 import React from 'react'
-import line from '../assets/images/svg/special-line-img.svg'
 import CustomHeading from './common/CustomHeading'
 import CustomDescription from './common/CustomDescription'
 import { LOREM_DATA } from '../utils/helper'
+import { Line } from '../utils/icon'
 const LatestEvent = () => {
     return (
         <>
@@ -10,7 +10,7 @@ const LatestEvent = () => {
                 <div className="max-w-[1320px] px-4 mx-auto">
                     <div className="flex flex-wrap flex-row -mx-3">
                         <div className="px-4 w-full lg:w-[41.66%] mb-6 lg:mb-0">
-                            <img className='pb-2' src={line} alt="line-img" />
+                            <p className='pb-2'><Line/></p>
                             <CustomHeading HeadingClass="!leading-[137%] lg:max-w-[388px] pb-3" heading="Explore our latest events" />
                             <CustomDescription discriptionClass="font-family-primary !leading-[140%] lg:max-w-[477px] pb-4 !text-[#000000B2]" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue lacinia vitae nec arcu." />
                             <a className='font-family-primary font-bold text-base leading-[100%] text-black ' href="#">LEARN MORE</a>

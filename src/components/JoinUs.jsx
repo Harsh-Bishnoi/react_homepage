@@ -1,10 +1,10 @@
 import React from 'react'
 import joinUs from '../assets/images/png/join-us-img.png'
-import line from '../assets/images/svg/special-line-img.svg'
 import CustomHeading from './common/CustomHeading'
 import CustomDescription from './common/CustomDescription'
 import Input from './common/Input'
 import CustomButton from './common/CustomButton'
+import { Line } from '../utils/icon'
 
 const JoinUs = () => {
     return (
@@ -17,7 +17,7 @@ const JoinUs = () => {
                         </div>
                         <div className="w-full md:w-1/2 px-4">
                             <div className="">
-                                <img className='mb-2.5' src={line} alt="line-img" />
+                                <p className='mb-2.5'><Line /></p>
                                 <CustomHeading HeadingClass="mb-4" heading="Join Us !" />
                                 <CustomDescription discriptionClass="font-family-primary mb-[15px] text-base !leading-[150%] lg:max-w-[480px] text-[#000000B2]" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc efficitur urna in dictum suscipit. Suspendisse maximus ipsum sem. Donec ut justo et leo congue " />
                                 <CustomHeading HeadingClass="mb-3.5 !text-[35px]" heading="Sign Up" />
