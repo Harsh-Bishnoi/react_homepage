@@ -1,6 +1,7 @@
 import './App.css'
 import BackToTop from './components/BackToTop'
 import Consectetur from './components/Consectetur'
+import EventHeader from './components/EventHeader'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import JoinUs from './components/JoinUs'
@@ -18,6 +19,7 @@ function App() {
       <JoinUs />
       <Footer />
       <BackToTop />
+      <EventHeader />
     </>
   )
 }

@@ -11,7 +11,7 @@ const Header = () => {
             <div className="absolute inset-0 bg-black opacity-57"></div>
             <div className="relative z-10">
                 <Nav />
-                <div className="max-w-[1320px] px-4 mx-auto">
+                <div className="max-w-[1320px] px-4 mx-auto pt-10 sm:pt-20 md:pt-28 lg:pt-44">
                     <div className="relative">
                         <h1 className='font-family-primary text-white font-bold text-3xl sm:text-5xl md:text-[64px] leading-[150%] max-w-[1044px] pb-[18px]'>
                             Sed tortor in quisque morbi scelerisque etiam eu.

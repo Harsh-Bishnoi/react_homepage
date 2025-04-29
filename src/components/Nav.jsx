@@ -17,8 +17,8 @@ const Nav = () => {
     }, []);
 
     return (
-        <nav className='mb-10 sm:mb-20 md:mb-28 lg:mb-44'>
-            <div className="max-w-[1320px] px-4 mx-auto">
+        <nav className='px-4'>
+            <div className="max-w-[1320px] mx-auto">
                 <div className="flex justify-between items-center py-[17px]">
                     <div className="flex items-center gap-3.5">
                         <a href="#"><img src={logo} alt="nav-logo" className='max-w-[50px] sm:max-w-[98px]' /></a>
@@ -30,10 +30,10 @@ const Nav = () => {
                         <span className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${menuOpen && '-rotate-45 -translate-y-2'}`}></span>
                     </div>
                     <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link gap-[60px] mb-0 ${menuOpen ? "show-navbar" : ""}`}>
-                        <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:font-semibold' href="#">HOME</a></li>
-                        <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:font-semibold' href="#">EVENTS</a></li>
-                        <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:font-semibold' href="#">FEED</a></li>
-                        <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:font-semibold' href="#">USER NAME</a></li>
+                        <li><a className='font-family-primary font-semibold text-base leading-[100%] text-white hover:underline' href="#">HOME</a></li>
+                        <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' href="#">EVENTS</a></li>
+                        <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' href="#">FEED</a></li>
+                        <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' href="#">Festivals Profile</a></li>
                         <li><CustomButton btnClass="text-base" btn="Log Out" /></li>
                     </ul>
                 </div>
