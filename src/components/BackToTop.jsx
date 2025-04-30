@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { UpArrow } from '../utils/icon';
+import BackTOTOp from '../assets/images/png/back-to-top.png'
 
 const BackToTop = () => {
     const [showButton, setShowButton] = useState(false);
@@ -20,8 +20,8 @@ const BackToTop = () => {
     return (
         <>
             {showButton && (
-                <div onClick={scrollToTop} className="fixed bottom-5 right-5 cursor-pointer z-2 hover:bg-[#0095BF] p-2 rounded-full shadow-lg bg-[#01C8FF] transition-all duration-200 ease-linear" >
-                    <UpArrow />
+                <div onClick={scrollToTop} className="fixed bottom-5 animate-bounce right-5 cursor-pointer z-2 hover:bg-blue-300 h-10 w-10 flex justify-center items-center rounded-full shadow-lg shadow-3xl bg-white transition-all duration-200 ease-linear" >
+                    <img src={BackTOTOp} alt="back to top img" />
                 </div>
             )}
         </>

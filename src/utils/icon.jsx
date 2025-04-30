@@ -114,13 +114,6 @@ export const Line = () => (
     </svg>
 )
 
-// back to top
-export const UpArrow = () => (
-    <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="white" strokeWidth={2}  >
-        <path strokeLinecap="round" strokeLinejoin="round" d="M5 15l7-7 7 7" />
-    </svg>
-)
-
 // header line
 export const HeaderLine = () => (
     <svg width="472" height="8" viewBox="0 0 472 8" fill="none" xmlns="http://www.w3.org/2000/svg">
