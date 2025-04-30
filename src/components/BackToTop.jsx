@@ -20,7 +20,7 @@ const BackToTop = () => {
     return (
         <>
             {showButton && (
-                <div onClick={scrollToTop} className="fixed bottom-5 animate-bounce right-5 cursor-pointer z-2 hover:bg-blue-300 h-10 w-10 flex justify-center items-center rounded-full shadow-lg shadow-3xl bg-white transition-all duration-200 ease-linear" >
+                <div onClick={scrollToTop} className="fixed bottom-5 border animate-bounce right-5 cursor-pointer z-2 hover:bg-blue-300 h-11 w-11 flex justify-center items-center rounded-full shadow-lg shadow-3xl bg-white transition-all duration-200 ease-linear" >
                     <img src={BackTOTOp} alt="back to top img" />
                 </div>
             )}
