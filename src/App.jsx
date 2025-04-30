@@ -23,7 +23,7 @@ function App() {
       <BackToTop />
       <EventHeader />
       <NextEvent />
-      <EventFooter/>
+      <EventFooter />
     </>
   )
 }

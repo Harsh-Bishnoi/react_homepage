@@ -1,6 +1,6 @@
 import latestImg from '../assets/images/png/latest-img-1.png'
 import LatestImg from '../assets/images/png/latest-img-2.png'
-import {HelpLogo, InfoLogo, SharingLogo } from './icon'
+import { HelpLogo, InfoLogo, SharingLogo } from './icon'
 
 export const CARD_DATA = [
     {
