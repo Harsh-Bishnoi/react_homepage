@@ -33,7 +33,7 @@ const Nav = () => {
                         <li><a className='font-family-primary font-semibold text-base leading-[100%] text-white hover:underline' href="#">HOME</a></li>
                         <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' href="#">EVENTS</a></li>
                         <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' href="#">FEED</a></li>
-                        <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' href="#">Festivals Profile</a></li>
+                        <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' href="#">FESTIVALS PROFILE</a></li>
                         <li><CustomButton btnClass="text-base" btn="Log Out" /></li>
                     </ul>
                 </div>

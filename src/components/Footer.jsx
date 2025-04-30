@@ -46,7 +46,7 @@ const Footer = () => {
                                         <li><a className='font-family-primary text-white font-normal hover:text-[#2C49FE] transition-all duration-200 ease-in text-xs leading-[100%]' href="#">ullamcorper</a></li>
                                     </ul>
                                 </div>
-                                <div className="w-full sm:w-6/12 px-3">
+                                <div className="w-full sm:w-6/12 px-3 xl:pl-3">
                                     <p className='text-white font-family-primary font-bold text-sm leading-[100%] mb-3'>GALLERY</p>
                                     <div className='flex max-sm:gap-2.5 gap-[18px]'>
                                         <img src={img1} alt="img-1" />
@@ -56,7 +56,7 @@ const Footer = () => {
                                     <div className='flex mt-[10px] max-sm:gap-2.5 gap-[18px]'>
                                         <img src={img4} alt="img-4" />
                                         <img src={img5} alt="img-5" />
-                                        <div className="max-w-[90px] w-full bg-[#2D3CAE87] py-[13px] px-6">
+                                        <div className="xl:min-w-[90px] max-w-[90px] w-full bg-[#2D3CAE87] py-[13px] px-6">
                                             <p className='font-family-primary font-bold text-xs leading-[150%] text-center text-white'>Show More</p>
                                         </div>
                                     </div>
