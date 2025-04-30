@@ -20,7 +20,7 @@ const BackToTop = () => {
     return (
         <>
             {showButton && (
-                <div onClick={scrollToTop} className="fixed bottom-5 right-5 cursor-pointer z-50 hover:bg-[#0095BF] p-2 rounded-full shadow-lg bg-[#01C8FF] transition-all duration-200 ease-linear" >
+                <div onClick={scrollToTop} className="fixed bottom-5 right-5 cursor-pointer z-2 hover:bg-[#0095BF] p-2 rounded-full shadow-lg bg-[#01C8FF] transition-all duration-200 ease-linear" >
                     <UpArrow />
                 </div>
             )}

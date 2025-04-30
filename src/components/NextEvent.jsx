@@ -8,7 +8,7 @@ import CustomButton from './common/CustomButton'
 const NextEvent = () => {
     return (
         <>
-            <div className="flex justify-center items-center pt-[68px] pb-[155px]">
+            <div className="flex justify-center items-center py-10 sm:pt-[68px] sm:pb-20 md:pb-[120px] lg:pb-[155px]">
                 <div className="max-w-[1320px] px-4">
                     <div className="flex justify-center pb-3">
                         <Line />
