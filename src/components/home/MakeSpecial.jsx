@@ -1,9 +1,9 @@
 import React from 'react'
-import special from '../assets/images/png/special-img.png'
-import CustomHeading from './common/CustomHeading'
-import CustomDescription from './common/CustomDescription'
-import { CARD_DATA } from '../utils/helper'
-import { Line } from '../utils/icon'
+import special from '../../assets/images/png/special-img.png'
+import CustomHeading from '../common/CustomHeading'
+import CustomDescription from '../common/CustomDescription'
+import { CARD_DATA } from '../../utils/helper'
+import { Line } from '../../utils/icon'
 const MakeSpecial = () => {
     return (
         <>

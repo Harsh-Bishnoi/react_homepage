@@ -1,8 +1,8 @@
 import React from 'react'
-import CustomHeading from './common/CustomHeading'
-import CustomDescription from './common/CustomDescription'
-import { LOREM_DATA } from '../utils/helper'
-import { Line } from '../utils/icon'
+import CustomHeading from '../common/CustomHeading'
+import CustomDescription from '../common/CustomDescription'
+import { LOREM_DATA } from '../../utils/helper'
+import { Line } from '../../utils/icon'
 const LatestEvent = () => {
     return (
         <>

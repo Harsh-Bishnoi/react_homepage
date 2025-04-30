@@ -1,7 +1,7 @@
 import React from 'react'
-import CustomHeading from './common/CustomHeading'
-import CustomDescription from './common/CustomDescription'
-import { AwardLogo, ParticipantsLogo, SpeakerLogo, TopicsLogo } from '../utils/icon'
+import CustomHeading from '../common/CustomHeading'
+import CustomDescription from '../common/CustomDescription'
+import { AwardLogo, ParticipantsLogo, SpeakerLogo, TopicsLogo } from '../../utils/icon'
 
 const Consectetur = () => {
     return (

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import BackTOTOp from '../assets/images/png/back-to-top.png'
+import BackTOTOp from '../../assets/images/png/back-to-top.png'
 
 const BackToTop = () => {
     const [showButton, setShowButton] = useState(false);

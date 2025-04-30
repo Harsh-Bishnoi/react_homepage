@@ -1,10 +1,10 @@
 import React from 'react'
-import joinUs from '../assets/images/png/join-us-img.png'
-import CustomHeading from './common/CustomHeading'
-import CustomDescription from './common/CustomDescription'
-import Input from './common/Input'
-import CustomButton from './common/CustomButton'
-import { Line } from '../utils/icon'
+import joinUs from '../../assets/images/png/join-us-img.png'
+import CustomHeading from '../common/CustomHeading'
+import CustomDescription from '../common/CustomDescription'
+import Input from '../common/Input'
+import CustomButton from '../common/CustomButton'
+import { Line } from '../../utils/icon'
 
 const JoinUs = () => {
     return (

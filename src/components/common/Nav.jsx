@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import logo from '../assets/images/svg/nav-logo.svg';
-import CustomButton from './common/CustomButton';
+import logo from '../../assets/images/svg/nav-logo.svg';
+import CustomButton from './CustomButton';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -30,10 +31,10 @@ const Nav = () => {
                         <span className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${menuOpen && '-rotate-45 -translate-y-2'}`}></span>
                     </div>
                     <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link gap-[60px] mb-0 ${menuOpen ? "show-navbar" : ""}`}>
-                        <li><a className='font-family-primary font-semibold text-base leading-[100%] text-white hover:underline' href="#">HOME</a></li>
-                        <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' href="#">EVENTS</a></li>
-                        <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' href="#">FEED</a></li>
-                        <li><a className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' href="#">FESTIVALS PROFILE</a></li>
+                        <li><Link className='font-family-primary font-semibold text-base leading-[100%] text-white hover:underline' to="/">HOME</Link></li>
+                        <li><Link className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' to="/event">EVENTS</Link></li>
+                        <li><Link className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' to="#">FEED</Link></li>
+                        <li><Link className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' to="#">FESTIVALS PROFILE</Link></li>
                         <li><CustomButton btnClass="text-base" btn="Log Out" /></li>
                     </ul>
                 </div>

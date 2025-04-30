@@ -1,6 +1,6 @@
 import React from 'react'
-import Nav from './Nav'
-import RightArrow from '../assets/images/svg/right-arrow.svg'
+import RightArrow from '../../assets/images/svg/right-arrow.svg'
+import Nav from '../common/Nav'
 
 const EventHeader = () => {
     return (

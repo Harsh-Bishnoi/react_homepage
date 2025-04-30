@@ -1,8 +1,8 @@
 import React from 'react'
-import { EventCalender, EventLocation, EventMember, Line } from '../utils/icon'
-import CustomHeading from './common/CustomHeading'
-import NextEventImg from '../assets/images/png/next-event-img.png'
-import CustomButton from './common/CustomButton'
+import { EventCalender, EventLocation, EventMember, Line } from '../../utils/icon'
+import NextEventImg from '../../assets/images/png/next-event-img.png'
+import CustomHeading from '../common/CustomHeading'
+import CustomButton from '../common/CustomButton'
 
 
 const NextEvent = () => {

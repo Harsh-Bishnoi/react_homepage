@@ -1,12 +1,12 @@
 import React from 'react'
-import logo from '../assets/images/svg/nav-logo.svg'
-import CustomDescription from './common/CustomDescription'
-import img1 from '../assets/images/png/footer-img-1.png'
-import img2 from '../assets/images/png/footer-img-2.png'
-import img3 from '../assets/images/png/footer-img-3.png'
-import img4 from '../assets/images/png/footer-img-4.png'
-import img5 from '../assets/images/png/footer-img-5.png'
-import { FacebookLogo, InstaLogo, TwitterLogo } from '../utils/icon'
+import logo from '../../assets/images/svg/nav-logo.svg'
+import CustomDescription from './CustomDescription'
+import img1 from '../../assets/images/png/footer-img-1.png'
+import img2 from '../../assets/images/png/footer-img-2.png'
+import img3 from '../../assets/images/png/footer-img-3.png'
+import img4 from '../../assets/images/png/footer-img-4.png'
+import img5 from '../../assets/images/png/footer-img-5.png'
+import { FacebookLogo, InstaLogo, TwitterLogo } from '../../utils/icon'
 
 const Footer = () => {
     return (
