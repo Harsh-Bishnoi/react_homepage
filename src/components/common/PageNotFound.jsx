@@ -8,7 +8,7 @@ import right from '../../assets/images/svg/not-found-right-circle.svg'
 const PageNotFound = () => {
     return (
         <>
-            <div className="flex items-center justify-center min-h-screen  relative">
+            <div className="flex items-center justify-center min-h-screen relative overflow-y-hidden">
                 <img className='absolute left-0 bottom-0' src={left} alt="" />
                 <img className='absolute right-0 top-0' src={right} alt="" />
                 <div className="max-w-[1320px] px-4 z-1">

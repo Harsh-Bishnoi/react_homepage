@@ -9,13 +9,13 @@ import PageNotFound from './components/common/PageNotFound'
 function App() {
 
   return (
-    <>    
+    <>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/event' element={ <EventPage/>} />
-          <Route path='/feed' element={ <PageNotFound/>} />
-          <Route path='/festival' element={ <PageNotFound/>} />
+          <Route path='/event' element={<EventPage />} />
+          <Route path='/feed' element={<PageNotFound />} />
+          <Route path='/festival' element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
       <BackToTop />
