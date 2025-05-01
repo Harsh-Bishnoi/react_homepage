@@ -33,8 +33,8 @@ const Nav = () => {
                     <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link gap-[60px] mb-0 ${menuOpen ? "show-navbar" : ""}`}>
                         <li><Link className='font-family-primary font-semibold text-base leading-[100%] text-white hover:underline' to="/">HOME</Link></li>
                         <li><Link className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' to="/event">EVENTS</Link></li>
-                        <li><Link className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' to="#">FEED</Link></li>
-                        <li><Link className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' to="#">FESTIVALS PROFILE</Link></li>
+                        <li><Link className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' to="/feed">FEED</Link></li>
+                        <li><Link className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' to="/festival">FESTIVALS PROFILE</Link></li>
                         <li><CustomButton btnClass="text-base" btn="Log Out" /></li>
                     </ul>
                 </div>

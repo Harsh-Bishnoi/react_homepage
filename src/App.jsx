@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Home from './view/Home'
 import EventPage from './view/EventPage'
 import BackToTop from './components/common/BackToTop'
+import PageNotFound from './components/common/PageNotFound'
 
 function App() {
 
@@ -13,9 +14,11 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/event' element={ <EventPage/>} />
+          <Route path='/feed' element={ <PageNotFound/>} />
+          <Route path='/festival' element={ <PageNotFound/>} />
         </Routes>
       </BrowserRouter>
-      <BackToTop/>
+      <BackToTop />
     </>
   )
 }
