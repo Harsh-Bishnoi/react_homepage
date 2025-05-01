@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '../components/Home/Header'
-import Consectetur from '../components/Home/Consectetur'
-import LatestEvent from '../components/Home/LatestEvent'
-import MakeSpecial from '../components/Home/MakeSpecial'
-import JoinUs from '../components/Home/JoinUs'
+import Header from '../components/home/Header'
+import Consectetur from '../components/home/Consectetur'
+import LatestEvent from '../components/home/LatestEvent'
+import MakeSpecial from '../components/home/MakeSpecial'
+import JoinUs from '../components/home/JoinUs'
 import Footer from '../components/common/Footer'
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
             <LatestEvent />
             <MakeSpecial />
             <JoinUs />
-            <Footer/>
+            <Footer />
         </ >
     )
 }
