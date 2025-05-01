@@ -5,10 +5,10 @@ import Footer from '../components/common/Footer'
 
 const EventPage = () => {
   return (
-      <div>
-          <EventHeader />
-          <NextEvent />
-          <Footer />
+    <div>
+      <EventHeader />
+      <NextEvent />
+      <Footer />
     </div>
   )
 }
