@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import logo from '../../assets/images/svg/nav-logo.svg';
 import CustomButton from './CustomButton';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Nav = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -31,10 +31,10 @@ const Nav = () => {
                         <span className={`block h-1 rounded-3xl bg-white transition-transform duration-300 ease-in-out ${menuOpen && '-rotate-45 -translate-y-2'}`}></span>
                     </div>
                     <ul id='nav-name' className={`list-unstyled flex justify-center items-center nav-link gap-[60px] mb-0 ${menuOpen ? "show-navbar" : ""}`}>
-                        <li><Link className='font-family-primary font-semibold text-base leading-[100%] text-white hover:underline' to="/">HOME</Link></li>
-                        <li><Link className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' to="/event">EVENTS</Link></li>
-                        <li><Link className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' to="/feed">FEED</Link></li>
-                        <li><Link className='font-family-primary font-normal text-base leading-[100%] text-white hover:underline' to="/festival">FESTIVALS PROFILE</Link></li>
+                        <li><NavLink className='font-family-primary font-semibold text-base leading-[100%] text-white relative after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-white after:rounded hover:after:w-full after:duration-300 after:ease-linear' to="/" activeclassname="active" >HOME</NavLink></li>
+                        <li><NavLink className='font-family-primary font-normal text-base leading-[100%] text-white relative after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-white after:rounded hover:after:w-full after:duration-300 after:ease-linear' to="/event" activeclassname="active">EVENTS</NavLink></li>
+                        <li><NavLink className='font-family-primary font-normal text-base leading-[100%] text-white relative after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-white after:rounded hover:after:w-full after:duration-300 after:ease-linear' to="/feed" activeclassname="active">FEED</NavLink></li>
+                        <li><NavLink className='font-family-primary font-normal text-base leading-[100%] text-white relative after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-white after:rounded hover:after:w-full after:duration-300 after:ease-linear' to="/festival" activeclassname="active">FESTIVALS PROFILE</NavLink></li>
                         <li><CustomButton btnClass="text-base" btn="Log Out" /></li>
                     </ul>
                 </div>
