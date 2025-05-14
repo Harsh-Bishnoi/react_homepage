@@ -11,6 +11,10 @@
     font-family: "Yantramanav", sans-serif;
 }
 
+.active {
+    color: #01C8FF;
+}
+
 @media (max-width:1023.98px) {
     .nav-link {
         flex-direction: column;
@@ -30,8 +34,4 @@
     .show-navbar {
         right: 0 !important;
     }
-}
-
-.active {
-    color: #2C49FE;
 }

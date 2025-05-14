@@ -16,6 +16,7 @@ function App() {
           <Route path='/event' element={<EventPage />} />
           <Route path='/feed' element={<PageNotFound />} />
           <Route path='/festival' element={<PageNotFound />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
       <BackToTop />
