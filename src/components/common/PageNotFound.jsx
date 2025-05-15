@@ -13,7 +13,7 @@ const PageNotFound = () => {
                 <img className='absolute right-0 top-0' src={right} alt="" />
                 <div className="max-w-[1320px] px-4 z-1">
                     <img src={Error} alt="error-img" />
-                    <CustomHeading HeadingClass="pt-[22px] text-4xl leading-[67px] text-center text-black" heading="Oh no. We lost this page" />
+                    <CustomHeading HeadingClass="pt-[22px] text-4xl leading-[67px] text-center text-black" heading="😞 Oh no. We lost this page" />
                     <div className="flex justify-center">
                         <CustomDescription discriptionClass="font-normal mt-6 text-lg max-w-[550px] leading-[22px] text-center text-black" text="We searched everywhere but couldn’t find what  you’re looking for. Let’s find a better place for you to go." />
                     </div>
